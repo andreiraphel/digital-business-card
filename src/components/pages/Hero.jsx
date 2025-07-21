@@ -5,12 +5,16 @@ export default function Hero(){
         <section className="hero">
             <div className="hero-div">
                 <div className="small-info">
+                    <div className="small-info-position">
+                        Software Engineer
+                    </div>
                     <div className="small-info-name">
                         ANDREI RAPHEL AMANG
                     </div>
                     <div className="small-info-content">
-                        Hi! I am Andrei Raphel Amang, a Computer Engineering Graduate 
-                        from Bohol Island State University Batch 2025
+                        Hey there! I'm Andrei, a fresh Computer Engineering graduate
+                         who loves to build, code, and learn. I enjoy creating cool 
+                         stuff on the web and leveling up my dev skills every day.
                     </div>
                 </div>
                 <div className="hero-photo">

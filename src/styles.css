@@ -2,6 +2,16 @@
     font-family: Helvetica, sans-serif;
 }
 
+:root {
+  --color-primary: #1B3C53;
+  --color-accent: #00FFB3;
+  --color-bg: #101820;
+  --color-surface: #D2C1B6;
+  --color-text: #F1F1F1;
+  --color-text-muted: #AAB8C2;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -55,9 +65,12 @@ main{
 /* --------------------------HERO------------------------------------ */
 .hero {
     background-color: #D2C1B6;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-div {
+    width: 900px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,8 +81,13 @@ main{
 .small-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 16px;
+    align-items: flex-start;
+}
+
+.small-info-position {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555353;
 }
 
 .small-info-name {
@@ -79,6 +97,8 @@ main{
 
 .small-info-content {
     font-size: 24px;
+    text-align: justify;
+    margin-top: 24px;
 }
 
 .andrei-photo {
@@ -88,6 +108,49 @@ main{
 }
 
 /* --------------------------ABOUT ME------------------------------------ */
+.about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-div {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 128px;
+}
+
+.about-me p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.hobbies {
+    background-color: #D2C1B6;
+    padding: 16px;
+    border-radius: 16px;
+    border: 3px solid #00FFB3;
+}
+
+.hobbies h2 {
+    text-align: center;
+}
+
+.hobby-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 1rem;
+}
+
+.hobby-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 
 
 /* --------------------------MY WORK------------------------------------ */

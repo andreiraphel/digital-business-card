@@ -2,16 +2,6 @@
     font-family: Helvetica, sans-serif;
 }
 
-:root {
-  --color-primary: #1B3C53;
-  --color-accent: #00FFB3;
-  --color-bg: #101820;
-  --color-surface: #D2C1B6;
-  --color-text: #F1F1F1;
-  --color-text-muted: #AAB8C2;
-}
-
-
 body {
     margin: 0;
     padding: 0;

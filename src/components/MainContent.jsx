@@ -1,5 +1,9 @@
+import Hero from "./pages/Hero";
+
 export default function MainContent() {
     return (
-        <h1>Test Main</h1>
+        <main>
+            <Hero />
+        </main>
     );
 }

@@ -9,23 +9,24 @@ body {
 }
 
 #root {
-    border: 4px solid red;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
+
+/* --------------------------HEADER------------------------------------ */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 64px;
-    background-color: darkgray;
+    background-color: #456882;
+    justify-self: baseline;
 }
 
 .my-logo {
-    width: 55px;
+    width: 64px;
 }
 
 .nav-list {
@@ -36,13 +37,72 @@ header {
 
 .nav-list a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
+
+
+/* --------------------------MAIN------------------------------------ */
+
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F3EF;
+}
+
+
+/* --------------------------HERO------------------------------------ */
+.hero {
+    background-color: #D2C1B6;
+}
+
+.hero-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 64px;
+    gap: 128px;
+}
+
+.small-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.small-info-name {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.small-info-content {
+    font-size: 24px;
+}
+
+.andrei-photo {
+    height: auto;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+/* --------------------------ABOUT ME------------------------------------ */
+
+
+/* --------------------------MY WORK------------------------------------ */
+
+/* --------------------------MY RESUME------------------------------------ */
+
+/* --------------------------CONTACT------------------------------------ */
+
+/* --------------------------FOOTER------------------------------------ */
 
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 8px;
-    background-color: gray;
+    justify-self: flex-end;
+    padding: 16px;
+    background-color: rgb(44, 54, 68);
+    color: white;
 }

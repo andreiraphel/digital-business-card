@@ -34,6 +34,11 @@ header {
     gap: 32px;
 }
 
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     display: flex;
     justify-content: center;

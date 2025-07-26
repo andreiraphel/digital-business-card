@@ -57,6 +57,11 @@ main{
     background-color: #D2C1B6;
     display: flex;
     justify-content: center;
+    background-image: url(./assets/html.png);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: 100%;
+    background-position-y: 50%;
 }
 
 .hero-div {

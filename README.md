@@ -25,3 +25,8 @@ A sleek, responsive digital business card built with **Vite + React**. This proj
 ```bash
 git clone https://github.com/andreiraphel/digital-business-card.git
 cd digital-business-card
+
+## 📸 Screenshot
+
+![Screenshot of the project](./assets/screenshot/1.png)
+![Screenshot of the project](./assets/screenshot/2.png)

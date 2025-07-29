@@ -7,18 +7,21 @@ export default function Body() {
                 <div className="photo-container">
                     <img src={andreiPhoto} alt="Andrei Formal Photo" className="photo" />
                 </div>
-                <h1 className="name">Andrei Raphel Amang</h1>
-                <h2 className="profession">Software Developer</h2>
-            </div>
-            <div className="core-tech">
-                <h3>Core Technologies</h3>
+                <h2 className="name">ANDREI RAPHEL AMANG</h2>
+                <h4 className="profession">Software Developer</h4>
             </div>
             <div className="contact">
-                <h3 className="email">andreiraphel@gmail.com</h3>
-                <h3 className="number">+639939248675</h3>
+                <div className="header contact-header">Contact</div>
+                <p><i class="fas fa-envelope"></i> andreiraphel@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +63 993 924 8675</p>
+                <p><i class="fas fa-map-marker-alt"></i> Tagbilaran City, Bohol, Philippines</p>
+                <p><i class="fas fa-globe"></i> andreiraphel.github.io/my-website/</p>
+            </div>
+            <div className="core-tech">
+                <div className="header core-tech-header">Core Technologies</div>
             </div>
             <div className="connect">
-                <h3>connect</h3>
+                <div className="header connect-header">Connect</div>
                 <a href=""></a>
                 <a href=""></a>
                 <a href=""></a>

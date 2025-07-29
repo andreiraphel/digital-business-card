@@ -39,19 +39,19 @@ export default function Body() {
             </div>
             <div className="connect">
                 <div className="header connect-header">Connect</div>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/andreiraphel" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/andrei-raphel-amang-8042a6240/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-x-twitter"></i> {/* or `fa-twitter` for the old logo */}
+                <a href="https://x.com/drey_derry" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-x-twitter"></i>
                 </a>
-                <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/andreiraphel.tiongco/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/drey_derry/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
                 </a>
             </div>

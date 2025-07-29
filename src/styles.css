@@ -8,13 +8,12 @@ body {
     font-family: system-ui, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
     background-color: #000;
-    background-image: radial-gradient(
-        circle at center,
-        rgba(50, 130, 184, 0.3) 20%,
-        rgba(0, 0, 0, 1) 80%
-    );
+    background-image: 
+        radial-gradient(circle at center, rgba(50, 130, 184, 0.3) 20%, rgba(0, 0, 0, 1) 80%),
+        url(./assets/html.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    background-size: cover, 400px;
     background-attachment: fixed;
     color: #BBE1FA;
     height: 100vh;
@@ -22,6 +21,7 @@ body {
     justify-content: center;
     padding: 5%;
 }
+
 
 .body-container {
     padding: 2rem;
@@ -34,18 +34,19 @@ body {
     align-items: center;
     background: rgba(255, 255, 255, 0.03);
     border-radius: 20px;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(14px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 30px rgba(50, 130, 184, 0.2);
     gap: 12px;
+    
 }
 
 .header::before {
-  content: "●";
-  color: #52b3f5; /* your blue */
-  font-size: 1.2em;
-  margin-right: 8px;
+    content: "●";
+    color: #0099ff;
+    font-size: 1.2em;
+    margin-right: 8px;
 }
 
 .header {
@@ -89,16 +90,14 @@ body {
 }
 
 .contact, .core-tech, .connect {
-    padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4%;
+    border: 1px solid rgba(255, 255, 255, 0.247);
     border-radius: 10px;
     box-shadow: 0 0 30px rgba(50, 130, 184, 0.2);
+    background-color: #00000073;
     width: 100%;
 }
 
-.contact {
-    padding: 1rem;
-}
 
 .contact > p {
     padding-left: 2rem;
@@ -117,12 +116,31 @@ body {
   margin-bottom: 10px;
 }
 
-.connect {
-    padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    box-shadow: 0 0 30px rgba(50, 130, 184, 0.2);
+.tech-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
+
+.tech {
+    border: 1px solid #bbe1faab;
+    border-radius: 20px;
+    padding: 4px 12px;
+    margin: 4px;
+    background: #47b5ff15;
+}
+
+.connect a {
+    margin: 0 8px;
+    color: #bbe1fa;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.connect a:hover {
+  color: #3282b8;
+}
+
 
 @media (max-width: 768px) {
   body {

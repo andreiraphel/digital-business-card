@@ -19,12 +19,41 @@ export default function Body() {
             </div>
             <div className="core-tech">
                 <div className="header core-tech-header">Core Technologies</div>
+                <div className="tech-container">
+                    <div className="tech">HTML</div>
+                    <div className="tech">CSS</div>
+                    <div className="tech">JavaScript</div>
+                    <div className="tech">Python</div>
+                    <div className="tech">C</div>
+                    <div className="tech">C++</div>
+                    <div className="tech">Flutter</div>
+                    <div className="tech">MySQL</div>
+                    <div className="tech">PostgreSQL</div>
+                    <div className="tech">SQLite</div>
+                    <div className="tech">Firebase</div>
+                    <div className="tech">React</div>
+                    <div className="tech">Node.js</div>
+                    <div className="tech">Git</div>
+                    <div className="tech">Linux</div>
+                </div>
             </div>
             <div className="connect">
                 <div className="header connect-header">Connect</div>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-x-twitter"></i> {/* or `fa-twitter` for the old logo */}
+                </a>
+                <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
     );

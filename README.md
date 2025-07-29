@@ -29,5 +29,5 @@ cd digital-business-card
 
 ## 📸 Screenshot
 
-![Screenshot of the project](./assets/screenshot/1.png)
-![Screenshot of the project](./assets/screenshot/2.png)
+![Screenshot of the project](./src/assets/screenshot/1.png)
+![Screenshot of the project](./src/assets/screenshot/2.png)

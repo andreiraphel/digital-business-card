@@ -15,7 +15,7 @@ export default function Body() {
                 <p><i class="fas fa-envelope"></i> andreiraphel@gmail.com</p>
                 <p><i class="fas fa-phone"></i> +63 993 924 8675</p>
                 <p><i class="fas fa-map-marker-alt"></i> Tagbilaran City, Bohol, Philippines</p>
-                <p><i class="fas fa-globe"></i> andreiraphel.github.io/my-website/</p>
+                <p><i class="fas fa-globe"></i>andreiraphel.github.io/digital-business-card/</p>
             </div>
             <div className="core-tech">
                 <div className="header core-tech-header">Core Technologies</div>

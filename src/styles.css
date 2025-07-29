@@ -71,8 +71,8 @@ body {
 }
 
 .photo-container {
-    width: 30vh;
-    height: 30vh;
+    width: 20em;
+    height: 20em;
     margin: 0 auto;
     background: #47b6ff;
     border-radius: 50%;
